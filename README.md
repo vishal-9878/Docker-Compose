@@ -48,12 +48,6 @@ project-name/
    ```bash
    docker-compose up --build
 
-## Usage
--Once the services are up and running, you can access the following endpoints:
-
-  *User Service: http://localhost:5000
-  *Post Service: http://localhost:5001
-  *Notification Service: http://localhost:5002
     
   
 
