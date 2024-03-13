@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  user:
+    build: ./user
+    ports:
+      - "5000:5000"
+
+  post:
+    build: ./post
+    ports:
+      - "5001:5001"
+
+  notification:
+    build: ./notification
+    ports:
+      - "5002:5002"
